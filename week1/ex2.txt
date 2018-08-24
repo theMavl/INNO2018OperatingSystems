@@ -1,0 +1,59 @@
+    1  jar
+    2  jar jplag-2.11.9-SNAPSHOT-jar-with-dependencies.jar
+    3  java -jar jplag-2.11.9-SNAPSHOT-jar-with-dependencies.jar
+    4  java -jar
+    5  java -jar jplag-2.11.9-SNAPSHOT-jar-with-dependencies
+    6  java -jar jplag-2.11.9-SNAPSHOT-jar-with-dependencies.jar
+    7  sudo apt-get install openjdk-7-jre
+    8  sudo chmod +x sudo apt-get install openjdk-7-jre.jar
+    9  sudo chmod
+   10  sudo thunar
+   11  sudo chmod +x
+   12  sudo chmod +x jplag-2.11.9-SNAPSHOT-jar-with-dependencies.jar
+   13  java -jar
+   14  java -jar --help
+   15  java -jar
+   16  jar
+   17  jar jplag-2.11.9-SNAPSHOT-jar-with-dependencies.jar
+   18  java
+   19  sudo apt-get install default-jdk
+   20  офмф
+   21  java
+   22  sudo docker-compose up
+   23  ./pycharm.sh
+   24  sudo apt install
+   25  sudo apt install docker
+   26  sudo apt install docker-compose
+   27  sudo docker images
+   28  sudo docker rs
+   29  sudo docker --help
+   30  sudo docker ps
+   31  sudo docker images
+   32  sudo docker зы
+   33  sudo docker ps
+   34  sudo docker exec
+   35  sudo docker exec dg01
+   36  sudo docker exec dg01 python manage.py 
+   37  sudo docker exec dg01 python manage.py populatedb
+   38  docker
+   39  docker ps
+   40  sudo docker ps
+   41  docker ps
+   42  sudo docker ps
+   43  docker-compose stop
+   44  sudo docker-compose stop
+   45  git status
+   46  sudo su
+   47  sudo docker-compose up
+   48  sudo docker-compose stop
+   49  sudo docker-compose restart
+   50  docker
+   51  sudo docker ps
+   52  sudo docker-compose stop
+   53  sudo docker-compose up
+   54  cd /usr/bin
+   55  ls | sort > ~/week1/list.txt
+   56  screenfetch
+   57  sudo apt install screenfetch
+   58  screenfetch
+   59  history > ~/week1/ex2.txt
