@@ -1,0 +1,2 @@
+8 KB is 8 * 2^10 = 2^3 * 2^10 = 2^13, thus to store it we need 13 bits.
+In virtual addresses high-order bits define virtual page number, and the rest are for offset. We found out that for offset it is necessary to have 13 bits. So, in 16-bit address only 3 bits remaining for virtual page number, it means that we can have 2^3 = 8 entries in page table.
