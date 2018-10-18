@@ -1,0 +1,6 @@
+Increase hit rate: access a single page within 1..N accesses (N - amount of page frames). I.e. use a page until it has been replaced.
+Perfect case: 1, 1, 1 (no more 1 in entire sequence), 2, 2, etc. Example sequence - in hit.txt
+
+Increase miss rate: don't repeat accessing a single page within 1..N accesses (N - amount of page frames).
+I.e. if page 1 was accessed, to maximize miss rate we should access it not sooner than after N other accesses.
+Example sequence - in miss.txt
