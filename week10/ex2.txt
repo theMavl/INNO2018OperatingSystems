@@ -1,0 +1,16 @@
+[mavl@mavl-pc week10]$ touch ../week1/file.txt
+[mavl@mavl-pc week10]$ link ../week1/file.txt _ex2.txt
+[mavl@mavl-pc week10]$ ls -i ../week1/file.txt
+741272 ../week1/file.txt
+[mavl@mavl-pc week10]$ find ../week1/file.txt -inum 741272
+../week1/file.txt
+[mavl@mavl-pc week10]$ ls -i _ex2.txt
+741272 _ex2.txt
+[mavl@mavl-pc week10]$ find _ex2.txt -inum 741272
+_ex2.txt
+[mavl@mavl-pc week10]$ find _ex2.txt -inum 741272 -exec rm {} \;
+[mavl@mavl-pc week10]$ ls -l ../week1 | grep file.txt
+-rwxrwxrwx 1 mavl mavl     0 окт 24 15:27 file.txt
+[mavl@mavl-pc week10]$ ls -l | grep _ex2.txt
+[mavl@mavl-pc week10]$ 
+

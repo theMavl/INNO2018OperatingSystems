@@ -1,0 +1,31 @@
+[mavl@mavl-pc week10]$ touch _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rw-rwxr-- 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ chmod -x _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rw-rw-r-- 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ chmod o=rwx _ex3.txt
+[mavl@mavl-pc week10]$ chmod a=rwx _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rwxrwxrwx 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ chmod g=u _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rwxrwxrwx 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ chmod 660 _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rw-rw---- 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ chmod 775 _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rwxrwxr-x 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ chmod 777 _ex3.txt
+[mavl@mavl-pc week10]$ ls -l
+total 0
+-rwxrwxrwx 1 mavl mavl 0 окт 25 13:45 _ex3.txt
+[mavl@mavl-pc week10]$ 
+
