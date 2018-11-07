@@ -1,0 +1,56 @@
+Time of copying gets longer as buffer size decreases, and gets shorter as buffer size increases.
+
+Log (file size - 60mb):
+gcc copy.c -o copy -DBUF_SIZE=2048
+time ./copy fileA fileB
+
+real	0m1,069s
+user	0m0,018s
+sys	0m0,304s
+
+gcc copy.c -o copy -DBUF_SIZE=1024
+time ./copy fileA fileB
+
+real	0m2,031s
+user	0m0,018s
+sys	0m0,590s
+
+gcc copy.c -o copy -DBUF_SIZE=512
+time ./copy fileA fileB
+
+real	0m3,849s
+user	0m0,063s
+sys	0m1,080s
+
+gcc copy.c -o copy -DBUF_SIZE=128
+time ./copy fileA fileB
+
+real	0m15,094s
+user	0m0,215s
+sys	0m4,263s
+
+
+Opening with O_SYNC makes copying significantly slower, even on small files. Likewise, as the size of buffer gets bigger,
+time of copying gets shorter.
+
+Log (file size - 7.6 kb):
+gcc copy.c -o copy -DBUF_SIZE=8
+time ./copy fileA fileB
+
+real	0m40,004s
+user	0m0,019s
+sys	0m0,126s
+
+gcc copy.c -o copy -DBUF_SIZE=128
+time ./copy fileA fileB
+
+real	0m2,487s
+user	0m0,000s
+sys	0m0,010s
+
+gcc copy.c -o copy -DBUF_SIZE=1024
+time ./copy fileA fileB
+
+real	0m0,378s
+user	0m0,000s
+sys	0m0,003s
