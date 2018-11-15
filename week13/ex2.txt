@@ -1,0 +1,11 @@
+First of all, deadlock avoidance is actually impossible to implement, because it requires info about future requests.
+Although if we somehow could obtain all the needed information beforehand -- then it would be the best way.
+
+To recover from a deadlock, we have to detect it first, which is a time-consuming operation. If processes usually
+request one resource at a time, it will be a bad solution, because it makes it necessary to re-run detection
+algorithm after each request. However it might be a good way in situations when processes request all the needed
+resources at once.
+
+Preventing deadlock structurally and logically is the most feasible method. Using this, deadlocks are prevented before
+they can possibly happen, by eliminating one of the four conditions stated by Coffman et al -- in most of the cases
+this approach works well.
