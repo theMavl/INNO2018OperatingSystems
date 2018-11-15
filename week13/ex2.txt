@@ -6,6 +6,6 @@ request one resource at a time, it will be a bad solution, because it makes it n
 algorithm after each request. However it might be a good way in situations when processes request all the needed
 resources at once.
 
-Preventing deadlock structurally and logically is the most feasible method. Using this, deadlocks are prevented before
-they can possibly happen, by eliminating one of the four conditions stated by Coffman et al -- in most of the cases
-this approach works well.
+Preventing deadlocks structurally and logically is the most feasible method. Using this, deadlocks are prevented
+before they can even happen, by eliminating one of the four conditions stated by Coffman et al -- in most of the
+cases this approach works well.
